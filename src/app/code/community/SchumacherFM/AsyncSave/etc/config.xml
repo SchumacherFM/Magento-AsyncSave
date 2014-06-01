@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SchumacherFM_AsyncSave>
+            <version>0.1.0</version>
+        </SchumacherFM_AsyncSave>
+    </modules>
+    <global>
+        <helpers>
+            <schumacherfm_asyncsave>
+                <class>SchumacherFM_AsyncSave_Helper</class>
+            </schumacherfm_asyncsave>
+        </helpers>
+        <models>
+            <schumacherfm_asyncsave>
+                <class>SchumacherFM_AsyncSave_Model</class>
+                <resourceModel>schumacherfm_asyncsave_resource</resourceModel>
+            </schumacherfm_asyncsave>
+            <schumacherfm_asyncsave_resource>
+                <class>SchumacherFM_AsyncSave_Model_Resource</class>
+            </schumacherfm_asyncsave_resource>
+        </models>
+    </global>
+</config>

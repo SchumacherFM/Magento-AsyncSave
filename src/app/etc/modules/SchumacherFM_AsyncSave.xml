@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SchumacherFM_AsyncSave>
+            <active>true</active>
+            <codePool>community</codePool>
+        </SchumacherFM_AsyncSave>
+    </modules>
+</config>

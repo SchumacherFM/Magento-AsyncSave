@@ -1,0 +1,18 @@
+{
+    do not use
+
+    "name": "schumacherfm/asyncsave",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "Magento implementation of http://au1.php.net/manual/en/mysqli.query.php to use MYSQLI_ASYNC for inserts and updates.",
+    "homepage": "https://github.com/schumacherfm",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "Cyrill Schumacher",
+            "email": "Cyrill@Schumacher.fm"
+        }
+    ]
+}
